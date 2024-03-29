@@ -1,20 +1,19 @@
-/* 
-    @media only screen and (min-width: 700px)  and (max-width: 800px) {
-        .carousel-caption{
-          
-        }
-      }
 
-      @media only screen and (min-width: 1100px) 
-{
-    .carousel-caption
-    {
-    }
+
+.card img{
+    transition: ease ;
 }
-@media only screen and (max-width: 600px) and (min-width: 300px){
-    .carousel-caption
-    {
-        
-        top: 20px;
- }
-} */
+.card:hover img{
+    scale: 1.05;
+    transition: ease-in-out;
+}
+
+.history-number {
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: -40px;
+}
+
+
+  

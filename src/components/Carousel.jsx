@@ -11,14 +11,14 @@ function Carousel() {
     data-bs-ride="carousel"
   >
     <div className="carousel-inner" >
-      <div className="carousel-item active">
+      <div className="carousel-item active" data-bs-interval="4000">
         <img 
           src="./src/assets/img/Section.jpg"
           className="d-block w-100"
           alt="..."
         />
       </div>
-      <div className="carousel-item">
+      <div className="carousel-item" data-bs-interval="4000">
         <img
           src="./src/assets/img/Section_1.png"
           className="d-block w-100"

@@ -78,10 +78,10 @@ function Header() {
         </div>
         {/* Social Media Icons */}
         <div className="d-flex align-items-center justify-content-start gap-3">
-          <h5><img style={{height:'30px'}} src="./src/assets/img/facebook.png" alt="" /></h5>
-          <h5><img style={{height:'100px'}} src="./src/assets/img/insta.png" alt="" /></h5>
-          <h5><img style={{height:'30px'}} src="./src/assets/img/youtube.png" alt="" /></h5>
-          <h5><img style={{height:'30px'}} src="./src/assets/img/twitter.png" alt="" /></h5>
+          <Link to="https://www.facebook.com/INCKerala" target='_blank' style={{textDecoration:'none'}}><img style={{height:'30px'}} src="./src/assets/img/facebook.png" alt="" /></Link>
+          <Link to="https://www.instagram.com/inckerala" target='_blank' style={{textDecoration:'none'}}><img style={{height:'100px'}} src="./src/assets/img/insta.png" alt="" /></Link>
+          <Link to="https://www.youtube.com/@INCKerala" target='_blank' style={{textDecoration:'none'}}><img style={{height:'30px'}} src="./src/assets/img/youtube.png" alt="" /></Link>
+          <Link to="https://twitter.com/INCKerala?s=20" target='_blank' style={{textDecoration:'none'}}><img style={{height:'30px'}} src="./src/assets/img/twitter.png" alt="" /></Link>
         </div>
       </div>
     </div>

@@ -26,13 +26,27 @@ function Infocus() {
         disableOnInteraction: false,
       }}
        pagination={{ clickable: true }}
+       breakpoints={{
+        // When window width is >= 992px (lg devices)
+        992: {
+          slidesPerView: 3,
+        },
+        // When window width is >= 768px and < 992px (md devices)
+        768: {
+          slidesPerView: 2,
+        },
+        // When window width is < 768px (mobile devices)
+        0: {
+          slidesPerView: 1,
+        },
+      }}
       //  scrollbar={{ draggable: true }}
     >
       <SwiperSlide>
       <div className="card rounded-5 p-3" style={{width: "18rem", background: "linear-gradient(white,rgb(57, 115, 176))"}}>
       <img style={{height:'200px'}} src="./src/assets/img/infocus.png" className='w-100 img-fluid' />
      <div className="card-body">
-    <h5 className="card-title text-black fw-bolder" >SHRI MALLIKARJUN KHARGE’S</h5>
+    <h5 className="card-title text-light fw-bolder" >SHRI MALLIKARJUN KHARGE’S</h5>
   </div>
       </div>
       </SwiperSlide>
@@ -40,16 +54,7 @@ function Infocus() {
       <div className="card rounded-5 p-3" style={{width: "18rem", background: "linear-gradient(white,rgb(57, 115, 176))"}}>
       <img style={{height:'200px'}} src="./src/assets/img/infocus.png" className='w-100 img-fluid' />
      <div className="card-body">
-    <h5 className="card-title text-black fw-bolder" >SHRI MALLIKARJUN KHARGE’S</h5>
-  </div>
-      </div>
-
-      </SwiperSlide>
-      <SwiperSlide>
-      <div className="card rounded-5 p-3" style={{width: "18rem", background: "linear-gradient(white,rgb(57, 115, 176))"}}>
-      <img style={{height:'200px'}} src="./src/assets/img/infocus.png" className='w-100 img-fluid' />
-     <div className="card-body">
-    <h5 className="card-title text-black fw-bolder" >SHRI MALLIKARJUN KHARGE’S</h5>
+    <h5 className="card-title text-light fw-bolder" >SHRI MALLIKARJUN KHARGE’S</h5>
   </div>
       </div>
 
@@ -58,7 +63,16 @@ function Infocus() {
       <div className="card rounded-5 p-3" style={{width: "18rem", background: "linear-gradient(white,rgb(57, 115, 176))"}}>
       <img style={{height:'200px'}} src="./src/assets/img/infocus.png" className='w-100 img-fluid' />
      <div className="card-body">
-    <h5 className="card-title text-black fw-bolder" >SHRI MALLIKARJUN KHARGE’S</h5>
+    <h5 className="card-title text-light fw-bolder" >SHRI MALLIKARJUN KHARGE’S</h5>
+  </div>
+      </div>
+
+      </SwiperSlide>
+      <SwiperSlide>
+      <div className="card rounded-5 p-3" style={{width: "18rem", background: "linear-gradient(white,rgb(57, 115, 176))"}}>
+      <img style={{height:'200px'}} src="./src/assets/img/infocus.png" className='w-100 img-fluid' />
+     <div className="card-body">
+    <h5 className="card-title text-light fw-bolder" >SHRI MALLIKARJUN KHARGE’S</h5>
   </div>
       </div>
 

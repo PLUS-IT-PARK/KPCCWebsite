@@ -4,26 +4,23 @@ function CarousalLabel() {
     <div>
     <div id="carouselExampleAutoplaying" className="carousel slide"  data-bs-ride="carousel">
   <div className="carousel-inner">
-    <div className="carousel-item active position-relative" data-bs-interval="2000">
-      <img src="./src/assets/img/st1.png" className="d-block w-100" alt="..." />
-      <div style={{top:'15%'}}  className="carousel-caption d-block position-absolute">
-        <h1  className='fw-bolder'>DR. SHASHI THAROOR</h1>
-        <h2 className='fw-bold ' style={{color:'#FFCA10'}}>MEMBER OF PARLIMENT & CWC MEMBER</h2>
-      </div>
+    {/* slide1 */}
+    <div className="carousel-item active position-relative" data-bs-interval="3000">
+      <img src="./src/assets/img/st1.jpg" className="d-block w-100" alt="..." />  
     </div>
-    <div className="carousel-item" data-bs-interval="2000">
-      <img  src="./src/assets/img/st1.png" className="d-block w-100" alt="..." />
-      <div style={{top:'15%'}} className="carousel-caption d-block position-absolute">
-        <h1 className='fw-bolder me-5'>DR. SHASHI THAROOR</h1>
-        <h2 className='fw-bold' style={{color:'#FFCA10'}}>MEMBER OF PARLIMENT & CWC MEMBER</h2>
-      </div>
+    {/* slide 2 */}
+    <div className="carousel-item" data-bs-interval="3000">
+      <img  src="./src/assets/img/st2.png" className="d-block w-100" alt="..." />
+      
     </div>
-    <div className="carousel-item" data-bs-interval="2000">
-      <img src="./src/assets/img/st1.png" className="d-block w-100 img-fluid" alt="..." />
-      <div style={{top:'15%'}}  className="carousel-caption d-block position-absolute">
-        <h1 className='fw-bolder'>DR. SHASHI THAROOR</h1>
-        <h2 className='fw-bold' style={{color:'#FFCA10'}}>MEMBER OF PARLIMENT & CWC MEMBER</h2>
-      </div>
+    {/* slide3 */}
+    <div className="carousel-item" data-bs-interval="3000">
+      <img src="./src/assets/img/st3.png" className="d-block w-100 img-fluid" alt="..." />
+     
+    </div>
+{/* slide4 */}
+    <div className="carousel-item" data-bs-interval="3000">
+      <img src="./src/assets/img/st4.png" className="d-block w-100 img-fluid" alt="..." />
     </div>
   </div>
   <button
@@ -36,7 +33,7 @@ function CarousalLabel() {
     <span className="visually-hidden">Previous</span>
   </button>
   <button
-    className="carousel-control-next"
+    className="carousel-control-next "
     type="button"
     data-bs-target="#carouselExampleAutoplaying"
     data-bs-slide="next"

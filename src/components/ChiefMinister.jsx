@@ -31,8 +31,9 @@ function ChiefMinister() {
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
-                      <h5 className="card-title">Dr. P. Ramalingam</h5>
+                      <h5 className="card-title">R SHANKAR</h5>
                       <p className="card-text">Chairman, KPCC</p>
+                      <p className='text-primary'>1962-64</p>
                     </div>
                   </div>
                 </div>
@@ -57,8 +58,9 @@ function ChiefMinister() {
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
-                      <h5 className="card-title">Dr. P. Ramalingam</h5>
+                      <h5 className="card-title text-black">K KARUNAKARAN</h5>
                       <p className="card-text">Chairman, KPCC</p>
+                      <p className='text-primary'>1977-77 | 1982-87 | 1991-95</p>
                     </div>
                   </div>
                 </div>
@@ -84,8 +86,9 @@ function ChiefMinister() {
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
-                      <h5 className="card-title">Dr. P. Ramalingam</h5>
+                      <h5 className="card-title text-black">A K ANTONY</h5>
                       <p className="card-text">Chairman, KPCC</p>
+                      <p className='text-primary'>1977-78 | 1995-96 | 2001-2004</p>
                     </div>
                   </div>
                 </div>
@@ -111,8 +114,9 @@ function ChiefMinister() {
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
-                      <h5 className="card-title">Dr. P. Ramalingam</h5>
+                      <h5 className="card-title text-black">OOMMEN CHANDY</h5>
                       <p className="card-text">Chairman, KPCC</p>
+                      <p className='text-primary'>2004-2006 | 2011-2016</p>
                     </div>
                   </div>
                 </div>

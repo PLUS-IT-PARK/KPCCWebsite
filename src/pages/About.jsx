@@ -78,8 +78,10 @@ function About() {
         </div>
         {/* Repeat the above structure for other cards */}
       </div>
+
+
       {/* About Image */}
-      {/* <div className="about-image mx-auto text-center">
+       {/* <div className="about-image mx-auto text-center">
         <section id="slider">
           <input type="radio" name="slider" id="s1" />
           <input type="radio" name="slider" id="s2" defaultChecked="" />
@@ -95,8 +97,55 @@ function About() {
           </label>
         </section>
       </div> */}
+      <div
+  id="carouselExampleControls"
+  className="carousel slide"
+  data-bs-ride="carousel"
+>
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src="./src/assets/img/history.png" className="d-block w-100 img-fluid" alt="..." />
+    </div>
+    <div className="carousel-item">
+      <img
+        src="../src/assets/img/history1.png"
+        className="d-block w-100 img-fluid"
+        alt="..."
+      />
+    </div>
+    <div className="carousel-item">
+      <img
+        src="../src/assets/img/history2.png"
+        className="d-block w-100 img-fluid"
+        alt="..."
+      />
     </div>
   </div>
+  <button
+    className="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleControls"
+    data-bs-slide="prev"
+  >
+    <span className="carousel-control-prev-icon" aria-hidden="true" />
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button
+    className="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleControls"
+    data-bs-slide="next"
+  >
+    <span className="carousel-control-next-icon" aria-hidden="true" />
+    <span className="visually-hidden">Next</span>
+  </button>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
+    </div>
+  </div> 
+
+
   {/* history and formation */}
   <div className="history-container">
     <div
@@ -126,8 +175,8 @@ function About() {
                 aria-expanded="true"
                 aria-controls="flush-collapseOne"
               >
-                <h4 className="m-0 text-warning">
-                  Historiography - An account of KPCC
+                <h4 style={{color:'#004167'}} className="m-0 fw-bold">
+                  HISTORIOGRAPHY - An account of KPCC
                 </h4>
               </button>
             </h2>
@@ -176,7 +225,7 @@ function About() {
                 aria-expanded="false"
                 aria-controls="flush-collapseTwo"
               >
-                <h4 className="m-0 text-warning">
+                <h4 style={{color:'#004167'}} className="m-0 fw-bold">
                   MILESTONES - The Role of Congress and the Development of the
                   National Movement
                 </h4>
@@ -326,8 +375,7 @@ function About() {
           <div className="accordion-item rounded-3 border-0 mb-2 shadow">
             <h2
               className="accordion-header text-center"
-              style={{ backgroundColor: "yellow" }}
-            >
+              style={{ backgroundColor: "yellow" }} >
               <button
                 className="accordion-button border-bottom collapsed fw-semibold text-center px-4 py-3"
                 type="button"
@@ -336,7 +384,7 @@ function About() {
                 aria-expanded="false"
                 aria-controls="flush-collapseThree"
               >
-                <h4 className="m-0 text-warning">
+                <h4 style={{color:'#004167'}} className="m-0 fw-bold">
                   ACTIVITIES - Travancore and Cochin's integration and the
                   establishment of Kerala state
                 </h4>
@@ -441,10 +489,9 @@ function About() {
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseFour"
                 aria-expanded="false"
-                aria-controls="flush-collapseFour"
-              >
-                <h4 className="m-0 text-warning">
-                  Historiography - An account of KPCC
+                aria-controls="flush-collapseFour" >
+                <h4 style={{color:'#004167'}} className="m-0 fw-bold">
+                STRUCTURE - Formation of Kerala State through the union of Travancore and Cochin
                 </h4>
               </button>
             </h2>
@@ -485,15 +532,14 @@ function About() {
               className="accordion-header text-center"
               style={{ backgroundColor: "yellow" }}
             >
-              <button
+             <button
                 className="accordion-button border-bottom collapsed fw-semibold text-center px-4 py-3"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseFive"
                 aria-expanded="false"
-                aria-controls="flush-collapseFive"
-              >
-                <h4 className="m-0 text-warning">
+                aria-controls="flush-collapseFive">
+                <h4 style={{color:'#004167'}} className="m-0 fw-bold text-start">
                   DEVELOPMENTS - Developments in politics subsequent to the
                   establishment of the state and Congress Party
                 </h4>
