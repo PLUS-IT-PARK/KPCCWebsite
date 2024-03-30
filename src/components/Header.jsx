@@ -42,7 +42,7 @@ function Header() {
             </Link>
           </li>
           <li className="nav-item ms-3">
-            <Link style={{textDecoration:'none'}} className="nav-link fw-bold text-black" href="#">
+            <Link to={'/hall-of-fame'} style={{textDecoration:'none'}} className="nav-link fw-bold text-black" href="#">
               HALL OF FAME            </Link>
           </li>
           <li  className="nav-item ms-3">
@@ -56,7 +56,7 @@ function Header() {
             </Link>
           </li>
           <li className="nav-item ms-3">
-  <a style={{textDecoration:'none'}} className="nav-link fw-bold text-black" href="./src/assets/documents/format.pdf" target="_blank">
+  <a style={{textDecoration:'none'}} className="nav-link fw-bold text-black" href="/format-c-7" target="_blank">
     FORMAT C-7
   </a>
 </li>
@@ -78,10 +78,10 @@ function Header() {
         </div>
         {/* Social Media Icons */}
         <div className="d-flex align-items-center justify-content-start gap-3">
-          <Link to="https://www.facebook.com/INCKerala" target='_blank' style={{textDecoration:'none'}}><img style={{height:'30px'}} src="./src/assets/img/facebook.png" alt="" /></Link>
-          <Link to="https://www.instagram.com/inckerala" target='_blank' style={{textDecoration:'none'}}><img style={{height:'100px'}} src="./src/assets/img/insta.png" alt="" /></Link>
-          <Link to="https://www.youtube.com/@INCKerala" target='_blank' style={{textDecoration:'none'}}><img style={{height:'30px'}} src="./src/assets/img/youtube.png" alt="" /></Link>
-          <Link to="https://twitter.com/INCKerala?s=20" target='_blank' style={{textDecoration:'none'}}><img style={{height:'30px'}} src="./src/assets/img/twitter.png" alt="" /></Link>
+          <Link to="https://www.facebook.com/INCKerala" target='_blank' style={{textDecoration:'none'}}><img style={{height:'30px'}} src="https://i.postimg.cc/85mnDygM/facebook.png" alt="" /></Link>
+          <Link to="https://www.instagram.com/inckerala" target='_blank' style={{textDecoration:'none'}}><img style={{height:'100px'}} src="https://i.postimg.cc/HnWvLQTK/insta.png" alt="" /></Link>
+          <Link to="https://www.youtube.com/@INCKerala" target='_blank' style={{textDecoration:'none'}}><img style={{height:'30px'}} src="https://i.postimg.cc/8zfKskV1/youtube.png" alt="" /></Link>
+          <Link to="https://twitter.com/INCKerala?s=20" target='_blank' style={{textDecoration:'none'}}><img style={{height:'30px'}} src="https://i.postimg.cc/1tmr0sbV/twitter.png" alt="" /></Link>
         </div>
       </div>
     </div>

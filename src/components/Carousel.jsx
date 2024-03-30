@@ -13,14 +13,14 @@ function Carousel() {
     <div className="carousel-inner" >
       <div className="carousel-item active" data-bs-interval="4000">
         <img 
-          src="./src/assets/img/Section.jpg"
+          src="https://i.postimg.cc/qB3bwM5W/Section.jpg"
           className="d-block w-100"
           alt="..."
         />
       </div>
       <div className="carousel-item" data-bs-interval="4000">
         <img
-          src="./src/assets/img/Section_1.png"
+          src="https://i.postimg.cc/rw12PNYX/Section-1.png"
           className="d-block w-100"
           alt="..."
         />

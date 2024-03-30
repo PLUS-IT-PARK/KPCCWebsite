@@ -3,11 +3,11 @@ import React from 'react'
 function ChiefMinister() {
   return (
     <>
-        <section style={{backgroundColor:' #207BC8'}} className="cheif-minister-container py-5">
+        <section style={{backgroundColor:' #207BC8'}} className="cheif-minister-container ">
     <div className="container">
       <div className="cheif-minister-head">
-        <h1 className="text-start text-white font-weight-bold">
-          CHEIF MINISTERS
+        <h1 className="text-start text-white fw-bold">
+          CHIEF MINISTERS
         </h1>
       </div>
       <div className="cheif-minister-body py-5">
@@ -24,7 +24,7 @@ function ChiefMinister() {
                 <div className="row g-0">
                   <div className="col-md-4">
                     <img
-                      src="./src/assets/img/cheif_minister_1.jpg"
+                      src="https://i.postimg.cc/gk8mRppK/cheif-minister-1.jpg"
                       className="card-img-top w-100 h-100 rounded"
                       alt="..."
                     />
@@ -51,7 +51,7 @@ function ChiefMinister() {
                 <div className="row g-0">
                   <div className="col-md-4">
                     <img
-                      src="./src/assets/img/cheif_minister_2.png"
+                      src="https://i.postimg.cc/Qt10mfdv/cheif-minister-2.png"
                       className="card-img-top w-100 h-100 rounded"
                       alt="..."
                     />
@@ -79,7 +79,7 @@ function ChiefMinister() {
                 <div className="row g-0">
                   <div className="col-md-4">
                     <img
-                      src="./src/assets/img/cheif_minister_3.jpg"
+                      src="https://i.postimg.cc/RFLwqyFC/cheif-minister-3.jpg"
                       className="card-img-top w-100 h-100 rounded"
                       alt="..."
                     />
@@ -107,7 +107,7 @@ function ChiefMinister() {
                 <div className="row g-0">
                   <div className="col-md-4">
                     <img
-                      src="./src/assets/img/Frame 40.jpg"
+                      src="https://i.postimg.cc/YSsCRxsN/Frame-40.jpg"
                       className="card-img-top w-100 h-100 rounded"
                       alt="..."
                     />

@@ -9,8 +9,8 @@ function Channel() {
   <div className="row d-flex align-items-center justify-content-center">
     <div className=" col-lg-3 col-md-6 d-flex align-items-center justify-content-center mb-3">
     <Link target='_blank' to='https://inc.in' style={{textDecoration:'none'}}>
-        <div className="card p-3" style={{ width: "18rem", borderRadius: 25 }}>
-          <img style={{height:'150px'}} src="./src/assets/img/aicc.png" className="card-img-top w-100 img-fluid" alt="..." />
+        <div className="card p-3" style={{ width: "18rem", borderRadius: "25px" }}>
+          <img style={{height:'150px'}} src="https://i.postimg.cc/mrSwJPsg/aicc.png" className="card-img-top w-100 img-fluid" alt="..." />
           <div className="card-body">
             <h5
               className="card-title"
@@ -23,10 +23,9 @@ function Channel() {
     </Link>
     </div>
     <div className="col-lg-3 col-md-6 d-flex align-items-center justify-content-center mb-3">
-      
         <Link target='_blank' to='https://www.kpcc.org.in' style={{textDecoration:'none'}}>
           <div className="card p-3" style={{ width: "18rem", borderRadius: 25 }}>
-            <img  style={{height:'150px'}} src="./src/assets/img/kpcc.png" className="card-img-top" alt="..." />
+            <img  style={{height:'150px'}} src="https://i.postimg.cc/8PWnwPjj/kpcc.png" className="card-img-top" alt="..." />
             <div className="card-body">
               <h5
                 className="card-title"
@@ -43,7 +42,7 @@ function Channel() {
       <Link target='_blank' to='https://bharatjodonyayyatra.com' style={{textDecoration:'none'}}>
         <div className="card p-3" style={{ width: "18rem", borderRadius: 25 }}>
           <img style={{height:'130px'}}
-            src="./src/assets/img/bharathjodo.png"
+            src="https://i.postimg.cc/httTv2Wc/bharathjodo.png"
             className="card-img-top  w-100 img-fluid"
             alt="..."/>
           <div className="card-body">
@@ -60,7 +59,7 @@ function Channel() {
       <Link target='_blank'  style={{textDecoration:'none'}}>
         <div className="card p-3" style={{ width: "18rem", borderRadius: 25 }}>
           <img style={{height:'150px'}}
-            src="./src/assets/img/volunteer.png"
+            src="https://i.postimg.cc/GhcsgXpG/volunteer.png"
             className="card-img-top img-fluid" 
             alt="..."
           />
@@ -81,7 +80,7 @@ function Channel() {
       <Link target='_blank' to="https://veekshanam.com" style={{textDecoration:'none'}}>
         <div className="card p-3" style={{ width: "18rem", borderRadius: "25px" }}>
           <img style={{height:'150px'}}
-            src="./src/assets/img/veekshanam.png"
+            src="https://i.postimg.cc/zGQbB5FF/veekshanam.png"
             className="card-img-top"
             alt="..."/>
           <div className="card-body">
@@ -98,7 +97,7 @@ function Channel() {
     <div className="col-lg-3 col-md-6 mb-3 d-flex align-items-center justify-content-center">
       <Link target='_blank' to="https://jaihindtv.in" style={{textDecoration:'none'}}>
         <div className="card p-3 " style={{ width: "18rem", borderRadius: 25 }}>
-          <img style={{height:'150px'}}  src="./src/assets/img/jaihind.png" className="card-img-top" alt="..." />
+          <img style={{height:'150px'}}  src="https://i.postimg.cc/7hXbyyL7/jaihind.png" className="card-img-top" alt="..." />
           <div className="card-body">
             <h5
               className="card-title"
@@ -113,7 +112,7 @@ function Channel() {
     <div className="col-lg-3 col-md-6 mb-3 d-flex align-items-center justify-content-center">
     <Link target='_blank' style={{textDecoration:'none'}}>
         <div className="card p-3" style={{ width: "18rem", borderRadius: 25 }}>
-          <img style={{height:'130px'}} src="./src/assets/img/politicalaffairs.png" className="card-img-top" alt="..." />
+          <img style={{height:'130px'}} src="https://i.postimg.cc/gjcksBK0/politicalaffairs.png" className="card-img-top" alt="..." />
           <div className="card-body">
             <h5
               className="card-title"
@@ -127,7 +126,7 @@ function Channel() {
     <div className="col-lg-3 col-md-6 mb-3 d-flex align-items-center justify-content-center">
       <Link target='_blank' to="https://manifesto.inc.in/en" style={{textDecoration:'none'}}>
         <div className="card p-3" style={{ width: "18rem", borderRadius: 25 }}>
-          <img style={{height:'150px'}} src="./src/assets/img/manifesto.png" className="card-img-top" alt="..." />
+          <img style={{height:'150px'}} src="https://i.postimg.cc/MTKhFkgg/manifesto.png" className="card-img-top" alt="..." />
           <div className="card-body">
             <h5
               className="card-title"
