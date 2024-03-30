@@ -5,7 +5,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import About from './pages/About'
 import Pdf from './components/Pdf'
-// import HallofFame from './pages/HallofFame'
+import HallofFame from './pages/HallofFame'
 
 
 function App() {
@@ -21,7 +21,7 @@ const isHeader = () =>{
      <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/format-c-7' element={<Pdf/>}/>
-      {/* <Route path='/hall-of-fame' element={<HallofFame/>} /> */}
+      <Route path='/hall-of-fame' element={<HallofFame/>} />
       <Route path='/about' element={<About/>}/>
       <Route path='/*' element={<Navigate to={'/'}/>}/>
     
