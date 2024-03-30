@@ -43,6 +43,20 @@ function CarousalLabel() {
       <img src="https://i.postimg.cc/Pxt65m4D/st8.png" className="d-block w-100 img-fluid" alt="..." />
     </div>
   </div>
+    {/* <!-- Indicators --> */}
+    <ol className="carousel-indicators">
+    <li data-bs-target="#carouselExampleControls" data-bs-slide-to="0" className="active"  aria-current="true" aria-label="Slide 1"></li>
+    <li data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 1"></li>
+    <li data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 2"></li>
+    <li data-bs-target="#carouselExampleControls" data-bs-slide-to="3" aria-label="Slide 3"></li>
+    <li data-bs-target="#carouselExampleControls" data-bs-slide-to="4" aria-label="Slide 4"></li>
+    <li data-bs-target="#carouselExampleControls" data-bs-slide-to="5" aria-label="Slide 5"></li>
+    <li data-bs-target="#carouselExampleControls" data-bs-slide-to="6" aria-label="Slide 6"></li>
+    <li data-bs-target="#carouselExampleControls" data-bs-slide-to="7" ></li>
+
+  </ol>
+
+  {/* carousal controls */}
   <button
     className="carousel-control-prev"
     type="button"

@@ -26,6 +26,13 @@ function Carousel() {
         />
       </div>
     </div>
+    {/* <!-- Indicators --> */}
+  <ol className="carousel-indicators">
+    <li data-bs-target="#carouselExampleControls" data-bs-slide-to="0" className="active"></li>
+    <li data-bs-target="#carouselExampleControls" data-bs-slide-to="1"></li>
+  </ol>
+
+    {/* carousal controls */}
     <button
       className="carousel-control-prev"
       type="button"
