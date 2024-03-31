@@ -94,7 +94,7 @@ function Footer() {
 
                 </div>
                 <div className='text-center text-light pb-4'>
-                    <p>© KPCCDMC. 2023. All Rights Resevered</p>
+                    <p>© KPCCDMC. 2024. All Rights Resevered</p>
                 </div>
             </div>
         </footer>
