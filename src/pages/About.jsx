@@ -138,7 +138,7 @@ function About() {
             style={{ backgroundColor: "#4267b2" }}
           >
             <div className="container">
-              <h1 className="text-start text-white font-weight-bold">
+              <h1 className="text-start text-white fw-bold">
                 History &amp; Formation
               </h1>
             </div>

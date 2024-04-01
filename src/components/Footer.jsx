@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
-        <footer style={{ backgroundColor: '#207BC8' }} className='w-100'>
+        <footer style={{ backgroundColor: '#207BC8' }} className='w-100 '>
             <div className="container">
                 <div className="row py-3 ">
                     <div className="col-lg-12 ">

@@ -1,9 +1,9 @@
 
 
-.card img{
+.card .image1{
     transition: ease ;
 }
-.card:hover img{
+.card:hover .image1{
     scale: 1.05;
     transition: ease-in-out;
 }
@@ -15,5 +15,72 @@
     margin-top: -40px;
 }
 
+/* image overlay effect - hall of fame */
+.card-container{
+    position: relative;
+}
+
+.card-text-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top,white,orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.card-text-container:hover{
+    opacity: 1;
+    transition: 0.6s;
+}
+
+.card-text-container:hover h6{
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text-container:hover p{
+    color: navy;
+    font-weight: 600;
+}
+
+.card-text-container:hover .btn{
+    outline: 1px solid black;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .large-screen{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}
+/* for medium devices */
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+    .large-screen{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+  }
+
+/* For large screens */
+@media only screen and (min-width: 992px) {
+    .large-screen{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+}
 
   

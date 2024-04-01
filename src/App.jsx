@@ -6,13 +6,18 @@ import Footer from './components/Footer'
 import About from './pages/About'
 import Pdf from './components/Pdf'
 import HallofFame from './pages/HallofFame'
+import OfficeBearers from './pages/OfficeBearers'
+import FrontalOrganizations from './pages/FrontalOrganizations'
+import View from './pages/View'
+import PacPDF from './components/PacPDF'
+import Contribute from './pages/Contribute'
 
 
 function App() {
 const location = useLocation()
 
 const isHeader = () =>{
-  return location.pathname=='/format-c-7'
+  return (location.pathname=='/format-c-7' || location.pathname=='/political-pdf')
 }
   return (
     <>
@@ -21,8 +26,13 @@ const isHeader = () =>{
      <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/format-c-7' element={<Pdf/>}/>
+      <Route path='/political-pdf' element={<PacPDF/>}/>
       <Route path='/hall-of-fame' element={<HallofFame/>} />
+      <Route path='/office-bearers' element={<OfficeBearers/>} />
+      <Route path='/frontal-organizations' element={<FrontalOrganizations/>} />
       <Route path='/about' element={<About/>}/>
+      <Route path='/donate' element={<Contribute/>}/>
+      <Route path='/view/:id' element={<View/>}/>
       <Route path='/*' element={<Navigate to={'/'}/>}/>
     
       </Routes>

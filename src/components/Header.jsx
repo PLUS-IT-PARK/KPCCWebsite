@@ -42,16 +42,19 @@ function Header() {
             </Link>
           </li>
           <li className="nav-item ms-3">
-            <Link to={'/hall-of-fame'} style={{textDecoration:'none'}} className="nav-link fw-bold text-black" href="#">
-              HALL OF FAME            </Link>
+            <Link to={'/hall-of-fame'} style={{textDecoration:'none'}} className="nav-link fw-bold text-black" >
+              HALL OF FAME 
+            </Link>
           </li>
           <li  className="nav-item ms-3">
-            <Link className="nav-link fw-bold text-black" href="#">
+            {/*  to={'/office-bearers'} */}
+            <Link className="nav-link fw-bold text-black" >
               OFFICE BEARERS
             </Link>
           </li>
           <li className="nav-item ms-3">
-            <Link style={{textDecoration:'none'}} className="nav-link fw-bold text-black" href="#">
+            {/* to={'/frontal-organizations'} */}
+            <Link  style={{textDecoration:'none'}} className="nav-link fw-bold text-black" >
               FRONTAL ORGANIZATIONS
             </Link>
           </li>
@@ -63,18 +66,16 @@ function Header() {
         </ul>
         {/* Contribute and Join as Volunteer Buttons */}
         <div className="d-flex align-items-center ms-auto mt-3 mt-lg-0 mt-md-0 mt-sm-0 mt-xs-0 mt-xxs-0 mt-xxxs-0 mt-xxxxs-0 mx-5">
-          <button
+          <Link to={'/donate'}
             className="btn text-white me-3 mt-3 mt-lg-0 mt-md-0 mt-sm-0 mt-xs-0 mt-xxs-0 mt-xxxs-0 mt-xxxxs-0 border-0 text-uppercase"
-            style={{ backgroundColor: "red" }}
-          >
+            style={{ backgroundColor: "red",textDecoration:'none' }}>
             Contribute
-          </button>
-          <button
+          </Link>
+          <Link to="https://volunteer-app.dmckpcc.in/login" target='_blank'
             className="btn text-white mt-3 mt-lg-0 mt-md-0 mt-sm-0 mt-xs-0 mt-xxs-0 mt-xxxs-0 mt-xxxxs-0 border-0 text-uppercase"
-            style={{ backgroundColor: "red" }}
-          >
+            style={{ backgroundColor: "red",textDecoration:'none' }}>
             Join as Volunteer
-          </button>
+          </Link>
         </div>
         {/* Social Media Icons */}
         <div className="d-flex align-items-center justify-content-start gap-3">
