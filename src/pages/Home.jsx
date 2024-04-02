@@ -9,10 +9,10 @@ import Channel from '../components/Channel'
 function Home() {
   return (
     <div>
-    {/* carousel */}
+     {/* carousel */}
         <Carousel/>
 
-    {/* history */}
+     {/* history */}
         <History/>
 
         {/* carousalLabel */}

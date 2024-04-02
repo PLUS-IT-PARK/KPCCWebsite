@@ -60,8 +60,7 @@ function History() {
                     <a
                       href="#"
                       className="btn btn-outline-0 btn-lg mt-3"
-                      style={{ color: "#004167" }}
-                    >
+                      style={{ color: "#004167" }}>
                       Learn More <i className="fas fa-arrow-right ms-2" />
                     </a>
                   </div>
