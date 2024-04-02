@@ -1,9 +1,9 @@
 import React from 'react'
 import stmob1 from '../assets/img/stmob1.jpg'
 import stmob2 from '../assets/img/stmob2.jpg'
-import stmob3 from '../assets/img/stmob4.jpg'
+import stmob3 from '../assets/img/stmob3.jpg'
 import stmob4 from '../assets/img/stmob4.jpg'
-import stmob5 from '../assets/img/stmob4.jpg'
+import stmob5 from '../assets/img/stmob5.jpg'
 import stmob6 from '../assets/img/stmob6.jpg'
 import stmob7 from '../assets/img/stmob7.jpg'
 import stmob8 from '../assets/img/stmob8.jpg'
@@ -556,7 +556,7 @@ function CarousalLabel() {
       </div>
       {/* vd satheesan */}
       <div className="carousel-item">
-  <img src="{stmob3}" className="d-block w-100" alt="..." />
+  <img src={stmob3} className="d-block w-100" alt="..." />
   <div
     className="social-icons position-absolute top-50 start-0 translate-middle-y p-4"
     style={{ zIndex: 1, marginTop: "-50px" }}
@@ -630,7 +630,7 @@ function CarousalLabel() {
       </div>
       {/* kodikunnil suresh */} 
       <div className="carousel-item">
-  <img src="{stmob5}" className="d-block w-100" alt="..." />
+  <img src={stmob5} className="d-block w-100" alt="..." />
   <div
     className="social-icons position-absolute top-50 start-0 translate-middle-y p-4"
     style={{ zIndex: 1, marginTop: "-50px" }}
