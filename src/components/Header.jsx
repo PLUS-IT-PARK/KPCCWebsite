@@ -12,9 +12,9 @@ function Header() {
   >
     <div className="container-fluid w-100 px-lg-3 ">
       {/* Logo */}
-      <a className="navbar-brand" href="#">
+      <Link style={{textDecoration:'none'}} className="navbar-brand" to={'/'}>
         <img src="https://i.postimg.cc/t7Q6F5JM/logo.png" alt="Your Logo" />
-      </a>
+      </Link>
       {/* Navbar Toggler */}
       <button
         className="navbar-toggler"
