@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import BannerOrganizations from '../components/BannerOrganizations'
 import axios from 'axios'
 import url from '../baseUrl'
+import ProfileModal from '../components/ProfileModal';
 
 function FrontalOrganizations() {
 
@@ -40,15 +41,16 @@ function FrontalOrganizations() {
                             <div key={index} className="col-lg-3 col-md-4 mb-4 d-flex justify-content-center align-items-center ">
                                 <div className="card shadow bg-primary-subtle card-conatiner" style={{ width: "100%" }}>
                                     <img src={obj?.image} className="card-img-top w-100 img-fluid d-block " alt="..." />
-                                    <div className="card-body card-text-container d-flex align-items-center justify-content-start">
-                                        <h6 className="card-title fw-bold text-black">{obj?.name}</h6>
-                                        <p className='text-black fs-5'>{obj?.postion}</p>
-                                        <p className='text-black'>{obj?.phone}</p>
-                                        <p className='text-black'>{obj?.email}</p>
-                                        <button className="btn btn-outline">
-                                            View Profile
-                                            <i className="fa-solid fa-arrow-right ms-3"></i>
-                                        </button>
+                                    <div className="card-body card-text-container">
+                                        <h6 className="card-title fw-bold text-black ps-3">{obj?.name}</h6>
+                                        <div className='ps-3'>
+                                            <p className='text-black fs-5'>{obj?.postion}</p>
+                                            <p className='text-black'>{obj?.phone}</p>
+                                            <p className='text-black'>{obj?.email}</p>
+                                        </div>
+                                        <div>
+                                         <ProfileModal userDetails={obj}/>
+                                      </div>
                                     </div>
                                 </div>
                             </div>

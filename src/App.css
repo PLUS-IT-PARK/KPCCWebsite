@@ -1,4 +1,14 @@
+/* navbar */
+.nav-link:focus{
+   color: navy !important;
+    border-bottom: 5px solid orangered;
+}
 
+.nav-link:hover{
+    color: navy !important;
+    /* background-color: rgb(72, 72, 155) !important;
+    border-radius: 16px; */
+ }
 
 .card .image1{
     transition: ease ;
@@ -26,10 +36,9 @@
     height: 100%;
     background: linear-gradient(to top,white,orange);
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
     flex-direction: column;
-    gap: 20px;
+    justify-content: space-evenly ;
     opacity: 0;
     transition: 0.6s;
 }
@@ -42,7 +51,7 @@
     color: whitesmoke;
     font-size: 22px;
     font-weight: bold;
-    text-align: center;
+    text-align: start;
 }
 
 .card-text-container:hover p{
@@ -51,7 +60,8 @@
 }
 
 .card-text-container:hover .btn{
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
+    text-align: start;
 
 }
 

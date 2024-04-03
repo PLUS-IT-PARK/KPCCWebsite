@@ -17,7 +17,7 @@ function HallofFame() {
                             <div className="card-body card-text-container">
                                 <h6 className="card-title fw-bold">{obj?.name}</h6>
                                 <p>Period: {obj?.period}</p>
-                                <Link to={`/view/${obj?.id}`} style={{textDecoration:'none'}} className='btn  text-black fw-fw-semibold fs-6 '>View Profile <i className="fa-solid fa-arrow-right"></i></Link>
+                                <Link to={`/view/${obj?.id}`} style={{textDecoration:'none'}} className='btn  text-black fw-semibold fs-6 '>View Profile <i className="fa-solid fa-arrow-right"></i></Link>
                             </div>
                         </div>
                     </div>

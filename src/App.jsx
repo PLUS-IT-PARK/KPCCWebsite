@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 import About from './pages/About'
 import Pdf from './components/Pdf'
 import HallofFame from './pages/HallofFame'
-// import OfficeBearers from './pages/OfficeBearers'
+import OfficeBearers from './pages/OfficeBearers'
 import FrontalOrganizations from './pages/FrontalOrganizations'
 import View from './pages/View'
 import PacPDF from './components/PacPDF'
@@ -28,7 +28,7 @@ const isHeader = () =>{
       <Route path='/format-c-7' element={<Pdf/>}/>
       <Route path='/political-pdf' element={<PacPDF/>}/>
       <Route path='/hall-of-fame' element={<HallofFame/>} />
-      {/* <Route path='/office-bearers' element={<OfficeBearers/>} /> */}
+      <Route path='/office-bearers' element={<OfficeBearers/>} />
       <Route path='/frontal-organizations' element={<FrontalOrganizations/>} />
       <Route path='/about' element={<About/>}/>
       <Route path='/donate' element={<Contribute/>}/>
