@@ -7,6 +7,7 @@ function Channel() {
     <section style={{backgroundColor:'#207BC8'}} className='w-100 py-5'>
     <div className="container">
   <div className="row d-flex align-items-center justify-content-center">
+    {/* AICC news */}
     <div className=" col-lg-3 col-md-6 d-flex align-items-center justify-content-center mb-3">
     <Link target='_blank' to='https://inc.in' style={{textDecoration:'none'}}>
         <div className="card p-3" style={{ width: "18rem", borderRadius: "25px" }}>
@@ -22,6 +23,8 @@ function Channel() {
         </div>
     </Link>
     </div>
+
+    {/* KPCC news */}
     <div className="col-lg-3 col-md-6 d-flex align-items-center justify-content-center mb-3">
         <Link target='_blank' to='https://www.kpcc.org.in' style={{textDecoration:'none'}}>
           <div className="card p-3" style={{ width: "18rem", borderRadius: 25 }}>
@@ -38,6 +41,7 @@ function Channel() {
         </Link>
     </div>
 
+    {/* Bharat jodo */}
     <div className="col-lg-3 col-md-6 d-flex align-items-center justify-content-center mb-3">
       <Link target='_blank' to='https://bharatjodonyayyatra.com' style={{textDecoration:'none'}}>
         <div className="card p-3" style={{ width: "18rem", borderRadius: 25 }}>
@@ -56,8 +60,9 @@ function Channel() {
       </Link>
     </div>
 
+    {/* volunteer */}
     <div className="col-lg-3 col-md-6 d-flex align-items-center justify-content-center mb-3 ">
-      <Link target='_blank'  style={{textDecoration:'none'}}>
+      <Link to="https://volunteer-app.dmckpcc.in/login" target='_blank'  style={{textDecoration:'none'}}>
         <div className="card p-3" style={{ width: "18rem", borderRadius: 25 }}>
           <img style={{height:'150px'}}
             src="https://i.postimg.cc/GhcsgXpG/volunteer.png"
@@ -78,6 +83,7 @@ function Channel() {
   </div>
 
   <div className="row d-flex align-items-center justify-content-center">
+    {/* veekshanam */}
     <div className="col-lg-3 col-md-6 d-flex align-items-center justify-content-center  mb-3">
       <Link target='_blank' to="https://veekshanam.com" style={{textDecoration:'none'}}>
         <div className="card p-3" style={{ width: "18rem", borderRadius: "25px" }}>
@@ -96,6 +102,7 @@ function Channel() {
         </div>
       </Link>
     </div>
+    {/* jaihind */}
     <div className="col-lg-3 col-md-6 mb-3 d-flex align-items-center justify-content-center">
       <Link target='_blank' to="https://jaihindtv.in" style={{textDecoration:'none'}}>
         <div className="card p-3 " style={{ width: "18rem", borderRadius: 25 }}>
@@ -113,6 +120,7 @@ function Channel() {
       </Link>
     </div>
     <div className="col-lg-3 col-md-6 mb-3 d-flex align-items-center justify-content-center">
+      {/* political affairs */}
     <Link to={'/political-pdf'} target='_blank' style={{textDecoration:'none'}}>
         <div className="card p-3" style={{ width: "18rem", borderRadius: 25 }}>
           <img style={{height:'130px'}} src="https://i.postimg.cc/gjcksBK0/politicalaffairs.png" className="card-img-top w-100 img-fluid image1" alt="..." />
@@ -126,6 +134,7 @@ function Channel() {
         </div>
     </Link>
     </div>
+    {/* manifesto */}
     <div className="col-lg-3 col-md-6 mb-3 d-flex align-items-center justify-content-center">
       <Link target='_blank' to="https://manifesto.inc.in/en" style={{textDecoration:'none'}}>
         <div className="card p-3" style={{ width: "18rem", borderRadius: 25 }}>

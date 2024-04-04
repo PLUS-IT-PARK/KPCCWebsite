@@ -11,6 +11,7 @@ import FrontalOrganizations from './pages/FrontalOrganizations'
 import View from './pages/View'
 import PacPDF from './components/PacPDF'
 import Contribute from './pages/Contribute'
+import BlogView from './pages/BlogView'
 
 
 function App() {
@@ -33,6 +34,7 @@ const isHeader = () =>{
       <Route path='/about' element={<About/>}/>
       <Route path='/donate' element={<Contribute/>}/>
       <Route path='/view/:id' element={<View/>}/>
+      <Route path='/blogs/:slug' element={<BlogView/>}/>
       <Route path='/*' element={<Navigate to={'/'}/>}/>
     
       </Routes>
