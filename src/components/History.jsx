@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 function History() {
   return (
     <>
@@ -57,12 +58,11 @@ function History() {
                       turn of the 19th century, the enraged multitudes were attempting
                       to emancipate ..
                     </p>
-                    <a
-                      href="#"
+                    <Link to="/about"
                       className="btn btn-outline-0 btn-lg mt-3"
-                      style={{ color: "#004167" }}>
+                      style={{ color: "#004167",textDecoration:'none' }}>
                       Learn More <i className="fas fa-arrow-right ms-2" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="col">
                     <h2
@@ -78,13 +78,12 @@ function History() {
                       entrance of lower castes into the Vaikom temple via a Satyagraha
                       was acknowledged as a direct challenge to the rulers'..
                     </p>
-                    <a
-                      href="#"
+                    <Link to="/about"
                       className="btn btn-outline-0 btn-lg mt-3"
-                      style={{ color: "#004167" }}
+                      style={{ color: "#004167",textDecoration:'none' }}
                     >
                       Learn More <i className="fas fa-arrow-right ms-2" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="col pt-md-5">
                     <h2
@@ -101,13 +100,11 @@ function History() {
                       India secured 65 of the 126 seats in the legislature. The
                       Communist Ministry was ..
                     </p>
-                    <a
-                      href="#"
+                    <Link to="/about"
                       className="btn btn-outline-0 btn-lg mt-3"
-                      style={{ color: "#004167" }}
-                    >
+                      style={{ color: "#004167",textDecoration:'none' }}>
                       Learn More <i className="fas fa-arrow-right ms-2" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="col pt-md-5">
                     <h2
@@ -124,13 +121,11 @@ function History() {
                       respective populations. The initial agitations were directed
                       toward the implementation of effective governance. Subsequently
                     </p>
-                    <a
-                      href="#"
+                    <Link to="/about"
                       className="btn btn-outline-0 btn-lg mt-3"
-                      style={{ color: "#004167" }}
-                    >
+                      style={{ color: "#004167",textDecoration:'none' }}>
                       Learn More <i className="fas fa-arrow-right ms-2" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="col pt-md-5 ">
                     <h2
@@ -148,13 +143,11 @@ function History() {
                       consequence of this was the establishment of the State of
                       Travancore-Cochin ..
                     </p>
-                    <a
-                      href="#"
+                    <Link to="/about"
                       className="btn btn-outline-0 btn-lg mt-3"
-                      style={{ color: "#004167" }}
-                    >
+                      style={{ color: "#004167",textDecoration:'none' }}>
                       Learn More <i className="fas fa-arrow-right ms-2" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

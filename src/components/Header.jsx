@@ -5,11 +5,10 @@ import { Link } from 'react-router-dom'
 function Header() {
   return (
     <header>
-         {/* navbar */}
+   {/* navbar */}
   <nav
     className="navbar navbar-expand-lg navbar-light"
-    style={{ backgroundColor: "#ffffff" }}
-  >
+    style={{ backgroundColor: "#ffffff" }}>
     <div className="container-fluid w-100 px-lg-3 ">
       {/* Logo */}
       <Link style={{textDecoration:'none'}} className="navbar-brand" to={'/'}>
@@ -25,7 +24,7 @@ function Header() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon" />
+      <span className="navbar-toggler-icon" />
       </button>
       {/* Navbar Content */}
       <div className="collapse navbar-collapse" id="navbarNav">

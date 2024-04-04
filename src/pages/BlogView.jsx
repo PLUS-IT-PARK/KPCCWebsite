@@ -16,7 +16,7 @@ function BlogView() {
     }
     const getInitialBlogs = async() =>{
         const result = await axios.get(`${url}/api/admin/get-blogs`)
-        setInitialBlogs(result.data.blogs).slice(0,5)
+        setInitialBlogs(result.data.blogs.slice(0,4))
     }
 
     
