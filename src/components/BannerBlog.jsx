@@ -15,8 +15,6 @@ function BannerBlog() {
       </div>
       </div>
       </div>
-
-      
       {/* small screens */}
       <div className='banner-container d-md-none'>
       <img className="w-100 img-fluid d-block"   src={bannerMob} alt="banner" />
