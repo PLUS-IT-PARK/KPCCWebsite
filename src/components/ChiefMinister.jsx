@@ -32,7 +32,7 @@ function ChiefMinister() {
                   <div className="col-md-8">
                     <div className="card-body">
                       <h4 style={{color:'#004167'}} className="card-title fw-bolder">R SHANKAR</h4>
-                      <p className="card-text text-black fw-medium">Chairman, KPCC</p>
+                      {/* <p className="card-text text-black fw-medium">Chairman, KPCC</p> */}
                       <h6 className='text-primary fw-semibold'>1962-64</h6>
                     </div>
                   </div>
@@ -59,7 +59,7 @@ function ChiefMinister() {
                   <div className="col-md-8">
                     <div className="card-body">
                       <h4 style={{color:'#004167'}} className="card-title fw-bolder">K KARUNAKARAN</h4>
-                      <p className="card-text text-black fw-medium">Chairman, KPCC</p>
+                      {/* <p className="card-text text-black fw-medium">Chairman, KPCC</p> */}
                       <p className='text-primary fw-semibold'>1977-77 | 1982-87 | 1991-95</p>
                     </div>
                   </div>
@@ -87,7 +87,7 @@ function ChiefMinister() {
                   <div className="col-md-8">
                     <div className="card-body">
                       <h4 style={{color:'#004167'}} className="card-title fw-bolder">A K ANTONY</h4>
-                      <p className="card-text text-black fw-medium">Chairman, KPCC</p>
+                      {/* <p className="card-text text-black fw-medium">Chairman, KPCC</p> */}
                       <p className='text-primary fw-semibold'>1977-78 | 1995-96 | 2001-2004</p>
                     </div>
                   </div>
@@ -115,7 +115,7 @@ function ChiefMinister() {
                   <div className="col-md-8">
                     <div className="card-body">
                       <h4 style={{color:'#004167'}} className="card-title fw-bolder">OOMMEN CHANDY</h4>
-                      <p className="card-text text-black fw-medium">Chairman, KPCC</p>
+                      {/* <p className="card-text text-black fw-medium">Chairman, KPCC</p> */}
                       <p className='text-primary fw-semibold'>2004-2006 | 2011-2016</p>
                     </div>
                   </div>
