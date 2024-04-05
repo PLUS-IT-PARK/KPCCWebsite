@@ -1,13 +1,13 @@
 import React from 'react'
 import './banner.css'
-import bannerImg from '../assets/img/BannerKpcc.jpg'
+import bannerImg from '../assets/img/bannerweb.jpg'
 import bannerMob from '../assets/img/bannerMob.jpg'
 
 function BannerOffice() {
   return (
     <section className='w-100'>
       <div className='banner-container d-none d-md-block'>
-      <img className="w-100 img-fluid d-block" style={{height:'300px'}}  src={bannerImg} alt="banner" />
+      <img className="w-100 img-fluid d-block" style={{height:'400px',objectFit:'cover',objectPosition:'top'}}  src={bannerImg} alt="banner" />
       <div  style={{height:'300px'}} className='banner-content d-flex align-items-center justify-content-center flex-column  p-5'>
      <h1 className='fw-bolder text-light'>Office Bearers - KPCC Presidents</h1>
     <div className='d-flex justify-content-start w-100 '>

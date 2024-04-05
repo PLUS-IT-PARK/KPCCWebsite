@@ -23,7 +23,7 @@ function OfficeBearers() {
             </div>
             <div className="container pb-5">
                 <div className="row py-5">
-                    <div className="col-lg-12 flex-wrap d-flex align-items-center justify-content-evenly mb-5">
+                    <div className="col-lg-12 flex-wrap d-flex align-items-center justify-content-evenly mb-5 ">
                         <button onClick={()=>handleButtonClick('president')} className={`btn ${activeButton === 'president' ? 'btn-light text-black' : 'btn-outline-light text-white'} mb-2 fw-bolder mt-3`}>PRESIDENT</button>
 
                         <button onClick={()=>handleButtonClick('workingPresidents')} className={`btn ${activeButton === 'workingPresidents' ? 'btn-light text-black' : 'btn-outline-light text-white'} mb-2 fw-bolder mt-3`}>WORKING PRESIDENTS</button>

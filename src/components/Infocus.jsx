@@ -24,7 +24,6 @@ function Infocus() {
         <h1 style={{ color: '#004167' }} className='fw-bolder text-uppercase py-4'>Infocus</h1>
         <Swiper
           modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
-          centeredSlides={false}
           spaceBetween={50}
           slidesPerView={3}
           navigation={true}
@@ -35,7 +34,6 @@ function Infocus() {
             0: {
                slidesPerView: 1,
                spaceBetween:0,
-               centeredSlides: true,
                },
           }}
           

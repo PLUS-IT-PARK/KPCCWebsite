@@ -59,7 +59,7 @@ function History() {
                       to emancipate ..
                     </p>
                     <Link to="/about"
-                      className="btn btn-outline-0 btn-lg mt-3"
+                      className="btn btn-outline-0 btn-lg mt-3 p-0 fw-bolder"
                       style={{ color: "#004167",textDecoration:'none' }}>
                       Learn More <i className="fas fa-arrow-right ms-2" />
                     </Link>
@@ -79,7 +79,7 @@ function History() {
                       was acknowledged as a direct challenge to the rulers'..
                     </p>
                     <Link to="/about"
-                      className="btn btn-outline-0 btn-lg mt-3"
+                      className="btn btn-outline-0 btn-lg mt-3 p-0 fw-bolder"
                       style={{ color: "#004167",textDecoration:'none' }}
                     >
                       Learn More <i className="fas fa-arrow-right ms-2" />
@@ -101,7 +101,7 @@ function History() {
                       Communist Ministry was ..
                     </p>
                     <Link to="/about"
-                      className="btn btn-outline-0 btn-lg mt-3"
+                      className="btn btn-outline-0 btn-lg mt-3 p-0 fw-bolder"
                       style={{ color: "#004167",textDecoration:'none' }}>
                       Learn More <i className="fas fa-arrow-right ms-2" />
                     </Link>
@@ -122,7 +122,7 @@ function History() {
                       toward the implementation of effective governance. Subsequently
                     </p>
                     <Link to="/about"
-                      className="btn btn-outline-0 btn-lg mt-3"
+                      className="btn btn-outline-0 btn-lg p-0 fw-bolder"
                       style={{ color: "#004167",textDecoration:'none' }}>
                       Learn More <i className="fas fa-arrow-right ms-2" />
                     </Link>
@@ -144,7 +144,7 @@ function History() {
                       Travancore-Cochin ..
                     </p>
                     <Link to="/about"
-                      className="btn btn-outline-0 btn-lg mt-3"
+                      className="btn btn-outline-0 btn-lg mt-3 p-0 fw-bolder"
                       style={{ color: "#004167",textDecoration:'none' }}>
                       Learn More <i className="fas fa-arrow-right ms-2" />
                     </Link>

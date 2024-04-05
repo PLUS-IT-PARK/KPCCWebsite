@@ -9,7 +9,7 @@ function HallofFame() {
                 <Banner />
             </div>
             <div className="container py-5" >
-                <div className="row py-5">
+                <div className="row py-5 px-3">
                     {dataArray.map(obj=>(
                         <div key={obj?.id} className="col-lg-3 col-md-4 mb-4 d-flex justify-content-center align-items-center " >
                         <div className="card shadow bg-primary-subtle card-conatiner" style={{ width: "100%"}}>
