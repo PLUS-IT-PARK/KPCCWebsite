@@ -11,7 +11,12 @@ function OfficeBearers() {
     const handleButtonClick = async (category) => {
         setActiveButton(category);
         const result = await axios.get(`${url}/api/admin/get-bearers?category=${category}`);
-        setGetAllData(result.data.bearers);
+        setGetAllData(result.data.bearers.reverse());
+        // if( category === 'legislativeAssemblyMember'){
+        //     //reverse the array
+        //     setGetAllData(result.data.bearers.reverse());
+        // }    
+        
     }
     useEffect(() => {
         handleButtonClick(activeButton)
