@@ -136,7 +136,7 @@ function Channel() {
     </div>
     {/* manifesto */}
     <div className="col-lg-3 col-md-6 mb-3 d-flex align-items-center justify-content-center">
-      <Link target='_blank' to="https://manifesto.inc.in/en" style={{textDecoration:'none'}}>
+      <Link target='_blank' to="https://inc.in/media/manifesto" style={{textDecoration:'none'}}>
         <div className="card p-3" style={{ width: "18rem", borderRadius: 25 }}>
           <img style={{height:'150px'}} src="https://i.postimg.cc/MTKhFkgg/manifesto.png" className="card-img-top image1 w-100 img-fluid" alt="..." />
           <div className="card-body">

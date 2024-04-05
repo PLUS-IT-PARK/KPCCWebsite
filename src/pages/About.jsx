@@ -16,10 +16,7 @@ function About() {
             <div className="about-body py-5">
               <div className="row">
                 <div className="col">
-                  <div
-                    className="card p-3 p-md-5 my-3"
-                    style={{ backgroundColor: "rgba(255, 255, 255, 0.8)" }}
-                  >
+                  <div className="card p-3 p-md-5 my-3" style={{ backgroundColor: "rgba(255, 255, 255, 0.8)" }}>
                     <h1 className="text-black">
                       K SUDHAKARAN,
                       <span className='text-secondary'>KPCC PRESIDENT</span>
@@ -29,14 +26,14 @@ function About() {
                       style={{ backgroundColor: "#4267b2", borderRadius: 15 }}
                     >
                       <div className="row g-0">
-                        <div className="col-md-3">
+                        <div className="col-lg-3 ">
                           <img
                             src="https://i.postimg.cc/K8G2ks5q/ksd1.png"
                             className="card-img-top w-100 h-auto rounded img-fluid"
                             alt="K Sudhakaran"
                           />
                         </div>
-                        <div className="col-md-9">
+                        <div className="col-lg-9  ">
                           <div className="card-body">
                             <p className="card-text text-white fs-6">
                               I am humbled and privileged to have been entrusted with
