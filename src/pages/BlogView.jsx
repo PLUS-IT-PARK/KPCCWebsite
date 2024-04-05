@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import url from '../baseUrl';
 import BannerBlog from '../components/BannerBlog';
@@ -24,6 +24,8 @@ function BlogView() {
     useEffect(() => {
         getBlogData()
         getInitialBlogs()
+    //    scroll to top
+    window.scrollTo(0, 0)
     }, [navigate])
     return (
         <section>
@@ -70,7 +72,7 @@ function BlogView() {
                                             <img
                                                 src={obj?.image}
                                                 alt=""
-                                                style={{ height: "60px",width:"80px" }}
+                                                style={{ height: "80px",width:"90px",objectFit:'cover'}}
                                                 className="img-fluid rounded"
                                             />
                                         </div>

@@ -72,6 +72,12 @@
     .mobile{
         display: block;
     }
+   .mobileSwiper{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
 }
 /* for medium devices */
 @media only screen and (min-width: 601px) and (max-width: 991px) {
@@ -81,6 +87,7 @@
     .mobile{
         display: none;
     }
+    
   }
 
 /* For large screens */
@@ -92,5 +99,6 @@
         display: none;
     }
 }
+
 
   

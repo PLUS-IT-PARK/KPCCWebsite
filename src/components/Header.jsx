@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 
@@ -36,7 +36,7 @@ function Header() {
             </Link>
           </li>
           <li className="nav-item active ms-3 mt-3 mt-lg-0 mt-md-0 mt-sm-0 mt-xs-0 mt-xxs-0 mt-xxxs-0 mt-xxxxs-0">
-            <Link to={'/about'} className="nav-link fw-bold text-black" href="#">
+            <Link style={{textDecoration:'none'}} to={'/about'} className="nav-link fw-bold text-black" >
               KPCC
             </Link>
           </li>
