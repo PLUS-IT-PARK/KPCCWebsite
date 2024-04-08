@@ -1,14 +1,16 @@
 /* navbar */
-.nav-link:focus{
+.navbar-link:focus{
    color: navy !important;
     border-bottom: 5px solid orangered;
+
 }
 
-.nav-link:hover{
+.navbar-link:hover{
     color: navy !important;
     /* background-color: rgb(72, 72, 155) !important;
     border-radius: 16px; */
  }
+
 
 .card .image1{
     transition: ease ;

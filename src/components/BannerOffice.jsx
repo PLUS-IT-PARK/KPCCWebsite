@@ -25,7 +25,7 @@ function BannerOffice() {
       </div>
       </div>
       </div>
-        </section>
+    </section>
   )
 }
 

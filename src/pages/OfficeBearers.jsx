@@ -50,7 +50,7 @@ function OfficeBearers() {
                   getAllData.map((obj, index) =>(
                     <div key={index} className="col-lg-3 col-md-4 mb-4 d-flex justify-content-center align-items-center ">
                    <div className="card rounded-5 shadow bg-primary-subtle card-conatiner" style={{ width: "100%"}}>
-                       <img src={obj?.image}  className="card-img-top rounded-5 w-100 img-fluid d-block " alt="..." />
+                       <img style={{objectFit:'cover'}} src={obj?.image}  className="card-img-top rounded-5 w-100 img-fluid d-block " alt="..." />
                        <div className="card-body card-text-container">
                            <h6 className="card-title fw-bold ps-3">{obj?.name}</h6>
                           <div className='ps-3'>

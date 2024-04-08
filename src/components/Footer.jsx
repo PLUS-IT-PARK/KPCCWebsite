@@ -53,7 +53,7 @@ function Footer() {
                                 </div>
                                 <div className="col-lg-4">
                                     <p className='text-white' style={{ fontSize: '15px' }}>
-                                        Indian National Congress <br />
+                                       <Link style={{textDecoration:'none'}} to="https://inc.in" target='_blank' className='text-white'> Indian National Congress </Link><br />
                                         KPCC Digital Media Cell  <br />
                                         Priyadarshini Publication <br />
                                         Deshiya Karshaka Thozhilali Federation <br />
