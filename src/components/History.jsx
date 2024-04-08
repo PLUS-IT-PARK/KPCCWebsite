@@ -25,8 +25,7 @@ function History() {
                 />
                 <div
                   className="history-number text-start"
-                  style={{ color: "#004167" }}
-                >
+                  style={{ color: "#004167" }}>
                   100+
                 </div>
                 <div className="kpcc-head text-start  justify-content-start align-items-center">
