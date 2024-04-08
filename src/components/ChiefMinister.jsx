@@ -133,3 +133,4 @@ function ChiefMinister() {
 }
 
 export default ChiefMinister
+
